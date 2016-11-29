@@ -33,6 +33,7 @@ namespace ExamenFormatif_Question5
                 }
                 Console.Write(tableGameBoard[i]+" ");
             }
+            Console.ReadKey();
 
         }
     }
