@@ -7,6 +7,7 @@ using System.Threading.Tasks;
  * Auteur: Patrick Charland
  * 29-11-2016
  * Description: Exercice sur For Loop.
+ * 8 / 15
  */
 namespace ExamenFormatif_Question5
 {
@@ -71,6 +72,8 @@ namespace ExamenFormatif_Question5
                             }
                         }
                         break;
+
+                        // Autres touches?
                 }
             }
 
@@ -108,6 +111,8 @@ namespace ExamenFormatif_Question5
 
             Console.Clear();
 
+
+            // cell Limit = tableGameBoard.Length - playerPosition (Pour 90 et +)
             switch (playerPosition)
             {
                 case 90:
